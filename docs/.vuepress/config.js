@@ -21,7 +21,7 @@ module.exports = {
       { text: "External", link: "https://google.com" },
     ],
   },
-  sidebar: auto,
+  sidebar: "auto",
   // sidebar: {
   //   "/docs/JavaScript/": [
   //     "/docs/JavaScript/",
