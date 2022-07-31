@@ -1,6 +1,6 @@
 ---
 {
-  navbar: true
+  navbar: true,
   "title": "JavaScript专题"
 }
 ---
