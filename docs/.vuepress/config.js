@@ -2,6 +2,7 @@ module.exports = {
   title: "star’s blog",
   description: "了解真相,你才能获得更多的自由",
   themeConfig: {
+    enableDarkMode: true,
     nav: [
       { text: "Home", link: "/" },
 
@@ -20,11 +21,12 @@ module.exports = {
       { text: "External", link: "https://google.com" },
     ],
   },
-  sidebar: {
-    "/docs/JavaScript/": [
-      "/docs/JavaScript/",
-      "/docs/JavaScript/闭包",
-      "/docs/JavaScript/原型与原型链",
-    ],
-  },
+  sidebar: auto,
+  // sidebar: {
+  //   "/docs/JavaScript/": [
+  //     "/docs/JavaScript/",
+  //     "/docs/JavaScript/闭包",
+  //     "/docs/JavaScript/原型与原型链",
+  //   ],
+  // },
 };
