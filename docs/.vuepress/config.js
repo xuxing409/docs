@@ -7,10 +7,11 @@ module.exports = {
 
       {
         text: "js",
-
+        link: "/js",
       },
       {
         text: "vue",
+        link: "/vue",
         // items: [
         //   {
         //     text: "Vue技术文档",
@@ -20,9 +21,11 @@ module.exports = {
       },
       {
         text: "react",
+        link: "/react",
       },
       {
         text: "关于",
+        link: "/about",
         // items: [
         //   {
         //     text: "关于我",
