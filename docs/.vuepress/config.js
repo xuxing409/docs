@@ -6,34 +6,25 @@ module.exports = {
       { text: "Home", link: "/" },
 
       {
-        text: "js",
-        link: "/js",
+        text: "javascript",
+        link: "/docs/javascript/",
       },
       {
         text: "vue",
-        link: "/vue",
-        // items: [
-        //   {
-        //     text: "Vue技术文档",
-        //     items: [{ text: "props传值更新", link: "/vue-01" }],
-        //   },
-        // ],
-      },
-      {
-        text: "react",
-        link: "/react",
+        link: "/docs/vue/",
       },
       {
         text: "关于",
         link: "/about",
-        // items: [
-        //   {
-        //     text: "关于我",
-        //     items: [{ text: "自学前端心路历程", link: "/about" }],
-        //   },
-        // ],
       },
       { text: "External", link: "https://google.com" },
+    ],
+  },
+  sidebar: {
+    "/docs/JavaScript/": [
+      "/docs/JavaScript/",
+      "/docs/JavaScript/闭包",
+      "/docs/JavaScript/原型与原型链",
     ],
   },
 };

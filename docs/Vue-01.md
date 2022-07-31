@@ -1,7 +1,0 @@
----
-navbar: true
-title: Vue
----
-
-
-
