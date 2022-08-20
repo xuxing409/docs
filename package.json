@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vuepress build docs",
+    "start": "vuepress dev docs --temp .temp",
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs"
   },
@@ -18,5 +19,8 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vuepress-theme-vt": "^0.5.0"
   }
 }

@@ -1,6 +1,7 @@
 module.exports = {
   title: "star’s blog",
   description: "了解真相,你才能获得更多的自由",
+  theme: "vt",
   themeConfig: {
     enableDarkMode: true,
     nav: [
@@ -24,13 +25,10 @@ module.exports = {
       },
       { text: "External", link: "https://google.com" },
     ],
+    sidebar: {
+      "/docs/JavaScript/": ["", "闭包", "原型与原型链"],
+      "/docs/vue/": [""],
+      "/docs/Electron/": ["", "介绍", "快速搭建", "主进程与渲染进程通信"],
+    },
   },
-  sidebar: "auto",
-  // sidebar: {
-  //   "/docs/JavaScript/": [
-  //     "/docs/JavaScript/",
-  //     "/docs/JavaScript/闭包",
-  //     "/docs/JavaScript/原型与原型链",
-  //   ],
-  // },
 };
