@@ -15,6 +15,10 @@ module.exports = {
         link: "/docs/vue/",
       },
       {
+        text: "electron",
+        link: "/docs/electron/",
+      },
+      {
         text: "关于",
         link: "/about",
       },

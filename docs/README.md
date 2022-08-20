@@ -3,7 +3,7 @@ home: true
 heroText: fe-world
 tagline: 前端知识体系
 actionText: 开始阅读 →
-actionLink: /vue-01.html
+actionLink: /docs/JavaScript/原型与原型链.html
 features:
 - title: 沙漠
   details: 沙漠之所以美丽,是因为在它的某个角落隐藏着一口井。
